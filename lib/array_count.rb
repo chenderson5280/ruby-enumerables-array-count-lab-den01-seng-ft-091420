@@ -4,7 +4,7 @@ def count_strings(array)
 #   string == "":String
 #end
 
-array.count (String.Datatype)
+array.count (:String.Datatype)
 end
 
 def count_empty_strings(array)
