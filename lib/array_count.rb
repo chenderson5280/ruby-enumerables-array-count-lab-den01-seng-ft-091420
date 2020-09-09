@@ -5,9 +5,9 @@ def count_strings(array)
     #  string == String.class
     #end
 
-    array.count { |num| num == String }
+    #array.count { |num| num == String }
 
-  #  array.count ()
+    array.count ("fun".class)
 
 end
 
