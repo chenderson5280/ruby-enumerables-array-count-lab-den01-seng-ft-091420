@@ -9,7 +9,7 @@ def count_strings(array)
 #end
 
 array.count do |element|
-element.string?
+element."":String?
 end
 
 
