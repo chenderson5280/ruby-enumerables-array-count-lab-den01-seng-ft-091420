@@ -5,7 +5,7 @@ def count_strings(array)
 #end
 
 array.count do |string|
-  string == hello
+  string == 'hello'
 end
 end
 
