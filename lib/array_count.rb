@@ -4,7 +4,7 @@ def count_strings(array)
 #   string == "":String
 #end
 
-array.count |string|
+array.count do |string|
 string == "string"
 end
 
