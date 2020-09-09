@@ -10,7 +10,7 @@ def count_strings(array)
 #end
 
 array.count do |element|
-element.class == ""
+element.class == "string".class
 end
 
 
