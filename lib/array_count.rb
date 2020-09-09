@@ -4,9 +4,7 @@ def count_strings(array)
 #   string == "":String
 #end
 
-array.count do |string|
-  string == 'hello' 
-end
+array.count (String)
 end
 
 def count_empty_strings(array)
